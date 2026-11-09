@@ -1,0 +1,20 @@
+{
+  "name": "@local/dsh-turn-timer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Elapsed time of the last completed conversation turn, as a composer-dock pill.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}

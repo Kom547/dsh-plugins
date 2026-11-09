@@ -1,0 +1,11 @@
+# Only the two published plugin directories belong to this repository.
+/*
+!/.gitignore
+!/README.md
+!/dsh-usage-balance
+!/dsh-turn-timer
+
+# Local working files that must never be published.
+dsh-turn-timer/cordis.patch.yml.bak-*
+dsh-*/node_modules/
+**/.DS_Store

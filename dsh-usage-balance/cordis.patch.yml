@@ -1,0 +1,7 @@
+# Bundle patch for @local/dsh-usage-balance: inserts the single plugin row that
+# the loader mounts. The row name is the package name, so the loader resolves
+# it from the profile's node_modules (installed as a file: dependency of the
+# profile); the browser half comes from the package's ./client export.
+- insert:
+    - id: usage-balance
+      name: '@local/dsh-usage-balance'
