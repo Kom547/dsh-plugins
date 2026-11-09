@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Session token usage and DeepSeek account balance in the composer dock.",
+  "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",

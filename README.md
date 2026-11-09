@@ -37,3 +37,7 @@ cd dsh-turn-timer && node selftest.mjs   # 39 条断言，不需要 DSH 进程�
 ## 兼容性
 
 在 DSH 0.2.2-rc.1（macOS arm64）上验证。插件读的是 DSH 的 bundle 内部契约（`ctx.slots`、`sessionProjections`、`conversation.composer.dock`），DSH 升级后可能需要跟进。
+
+## License
+
+MIT，见 [LICENSE](LICENSE)。

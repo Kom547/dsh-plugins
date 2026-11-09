@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Elapsed time of the last completed conversation turn, as a composer-dock pill.",
+  "license": "MIT",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
